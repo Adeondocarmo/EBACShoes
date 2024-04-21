@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header .container,
+section .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+header {
+    padding: 16px 0;
+    background-color:#000000;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+    max-width: 33%;
+}
+
+.li-especifico {
+    float: left;
+}
+
+li img {
+    width: 98%;
+}
+
+.mercadorias{
+    margin: 50px;
+}
+
+@media screen and (max-width:640px) {
+    li {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width:1023px) {
+    li {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        background-color: #fff;
+    }
+
+    .front {
+        display:flex;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    width: 40%;
+    padding: 8px 0;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.store-front {
+    margin-right: 32px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.front {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.loja{
+    margin-top: 20px;
+}
+
+.pp {
+    margin-top: 20px;
+}
+
+.container {
+    margin-left: 50px;
+}
